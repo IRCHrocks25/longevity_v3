@@ -1,7 +1,8 @@
 [phases.install]
 cmds = [
   "rm -rf node_modules package-lock.json",
-  "npm install"
+  "npm install --include=dev",
+  "chmod +x node_modules/.bin/* || true"
 ]
 
 [phases.build]
