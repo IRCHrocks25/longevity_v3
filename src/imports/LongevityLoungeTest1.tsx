@@ -20,9 +20,9 @@ import imgSection1 from "figma:asset/54c005585246beec251f42a2c5b374d2b6e65ad6.pn
 
 function Frame13() {
   return (
-    <div className="content-stretch flex flex-col gap-[14px] items-start not-italic relative shrink-0 w-full whitespace-pre-wrap">
-      <div className="font-['Cormorant_Garamond:Medium',sans-serif] leading-[71px] relative shrink-0 text-[#3a0e46] text-[75.862px] tracking-[-1.8965px] w-full">
-        <p className="mb-0">{`It's Time to Put Your`}</p>
+    <div className="content-stretch flex flex-col gap-[14px] items-start not-italic relative shrink-0 w-full">
+      <div className="font-['Cormorant_Garamond:Medium',sans-serif] leading-[71px] relative shrink-0 text-[#3a0e46] text-[75.862px] tracking-[-1.8965px] min-w-max">
+        <p className="mb-0 whitespace-nowrap">It's Time to Put Your</p>
         <p className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic">Health First.</p>
       </div>
       <p className="font-['Inter:Regular',sans-serif] font-normal leading-[36px] relative shrink-0 text-[#845491] text-[24px] w-full">Without Slowing Down Your Life, Your Business, or Your Ambition.</p>
