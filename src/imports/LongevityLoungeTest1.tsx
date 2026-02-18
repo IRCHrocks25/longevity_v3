@@ -16,6 +16,7 @@ import imgContainer2 from "figma:asset/41fb2cafdb4588bd991265934cb111644c35199e.
 import imgFrame1707482246 from "figma:asset/b96d736f4bbd3fdb714e6fb67afae8257dfdc044.png";
 import imgContainer3 from "figma:asset/5b27b9a801a6891effeb2410b563a11a4d24262f.png";
 import imgPortraitHappyYoungWomanBackgroundBeautifulSeaGirlLooksMagicalSeaFreedomHappiness1 from "figma:asset/977667ac44ea1a6ed9c37df3e2b16b596f8877cb.png";
+import imgLongevityImage from "../assets/longevity_image.jpeg";
 import imgSection1 from "figma:asset/54c005585246beec251f42a2c5b374d2b6e65ad6.png";
 
 function Frame13() {
@@ -50,7 +51,7 @@ function Frame14() {
 
 function Frame15() {
   return (
-    <div className="content-stretch flex flex-col gap-[59px] items-start relative shrink-0 w-[585px]">
+    <div className="content-stretch flex flex-col gap-[59px] items-start relative shrink-0 w-[700px]">
       <div className="h-[81.507px] relative shrink-0 w-[228.271px]" data-name="Group 1171275812 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup11712758121} />
       </div>
@@ -531,7 +532,7 @@ function Frame7() {
 
 function Frame8() {
   return (
-    <div className="content-stretch flex flex-col gap-[25px] items-start relative shrink-0 w-[672px]">
+    <div className="content-stretch flex flex-col gap-[25px] items-start relative shrink-0 w-[800px]">
       <Frame7 />
       <div className="h-[100px] relative shrink-0 w-[273px]" data-name="image 6">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
@@ -658,7 +659,7 @@ function Frame19() {
 
 function Frame20() {
   return (
-    <div className="content-stretch flex flex-col items-center justify-end relative shrink-0 w-[1268.538px]">
+    <div className="content-stretch flex flex-col items-center justify-end relative shrink-0 w-[1400px]">
       <Frame18 />
       <Frame19 />
     </div>
@@ -681,8 +682,8 @@ function Frame21() {
   return (
     <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full whitespace-pre-wrap">
       <p className="font-['Inter:Regular',sans-serif] font-normal leading-[20px] not-italic relative shrink-0 text-[#845491] text-[14px] tracking-[2.8px] uppercase w-full">WHY MOST PEOPLE WAIT TOO LONG</p>
-      <div className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[60px] relative shrink-0 text-[#2c3135] text-[0px] text-[54px] w-full">
-        <p className="font-['Cormorant_Garamond:Medium',sans-serif] mb-0 not-italic">{`Most people don't lose their health overnight.`}</p>
+      <div className="font-['Cormorant_Garamond:Medium_Italic',sans-serif] italic leading-[56px] relative shrink-0 text-[#2c3135] text-[0px] text-[50px] w-full">
+        <p className="font-['Cormorant_Garamond:Medium',sans-serif] mb-0 not-italic">Most people don't lose<br />their health overnight.</p>
         <p>They lose options.</p>
       </div>
     </div>
@@ -773,7 +774,7 @@ function Container22() {
 
 function Frame22() {
   return (
-    <div className="content-stretch flex flex-col gap-[35px] items-start relative shrink-0 w-[492.798px]">
+    <div className="content-stretch flex flex-col gap-[35px] items-start relative shrink-0 w-[600px]">
       <Frame21 />
       <Container22 />
     </div>
@@ -883,7 +884,7 @@ function Container33() {
 
 function Container31() {
   return (
-    <div className="bg-white col-1 content-stretch flex flex-col gap-[32px] h-[375.5px] items-start ml-[52.42px] mt-[44.08px] pt-[48px] px-[48px] relative rounded-[32px] row-1 shadow-[0px_10px_15px_0px_rgba(0,0,0,0.1),0px_4px_6px_0px_rgba(0,0,0,0.1)] w-[896px]" data-name="Container">
+    <div className="bg-white col-1 content-stretch flex flex-col gap-[32px] h-[375.5px] items-start ml-[52.42px] mt-[44.08px] pt-[48px] px-[48px] relative rounded-[32px] row-1 shadow-[0px_10px_15px_0px_rgba(0,0,0,0.1),0px_4px_6px_0px_rgba(0,0,0,0.1)] w-[1050px]" data-name="Container">
       <Paragraph11 />
       <Container32 />
       <Container33 />
@@ -906,7 +907,7 @@ function Group1() {
 
 function Frame24() {
   return (
-    <div className="content-stretch flex flex-col gap-[76px] items-center justify-center relative shrink-0 w-[1055.351px]">
+    <div className="content-stretch flex flex-col gap-[76px] items-center justify-center relative shrink-0 w-[1200px]">
       <Frame23 />
       <Group1 />
     </div>
@@ -1117,7 +1118,7 @@ function Frame42() {
 
 function Frame26() {
   return (
-    <div className="content-stretch flex flex-col gap-[59px] items-center relative shrink-0 w-[896px]">
+    <div className="content-stretch flex flex-col gap-[59px] items-center relative shrink-0 w-[1050px]">
       <Frame25 />
       <Frame42 />
     </div>
@@ -1675,7 +1676,7 @@ function Frame46() {
 
 function Frame29() {
   return (
-    <div className="content-stretch flex flex-col gap-[39px] items-center relative shrink-0 w-[896px]">
+    <div className="content-stretch flex flex-col gap-[39px] items-center relative shrink-0 w-[1050px]">
       <Frame28 />
       <Container72 />
       <Frame46 />
@@ -1747,7 +1748,7 @@ function Frame30() {
   return (
     <div className="bg-white content-stretch flex items-center justify-center overflow-clip pr-[135px] py-[117px] relative shrink-0 w-full">
       <div className="h-[577.539px] mr-[-135px] relative rounded-[30px] shrink-0 w-[866.203px]" data-name="portrait-happy-young-woman-background-beautiful-sea-girl-looks-magical-sea-freedom-happiness 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[30px] size-full" src={imgPortraitHappyYoungWomanBackgroundBeautifulSeaGirlLooksMagicalSeaFreedomHappiness1} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[30px] size-full" src={imgLongevityImage} />
       </div>
       <Container80 />
     </div>
